@@ -8,5 +8,5 @@ The purpose of this project is .
 </p>
 
 <p align="center">
-    <strong><small>Fly Agaric Muroomsh</small></strong>
+    <strong><small>Fly Agaric Mushroom</small></strong>
 </p>
