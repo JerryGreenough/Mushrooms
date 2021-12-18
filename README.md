@@ -4,9 +4,9 @@
 The purpose of this project is .
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/JerryGreenough/Chamber_Music/master/images/schubert_piano_trio.JPG" width="782" height="444">  
+    <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/fly_agaric.JPG" width="782" height="444">  
 </p>
 
 <p align="center">
-    <strong><small>Some mushrooms</small></strong>
+    <strong><small>Fly Agaric Muroomsh</small></strong>
 </p>
