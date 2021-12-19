@@ -133,7 +133,7 @@ will then be used to see whether reducing the number of uninformative features h
 as follows: </p>
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=R={{TP}\over{{TP%20+%20FE}}}">
+<img src="https://render.githubusercontent.com/render/math?math=R={{TP}\over{{TP%20%2B%20FE}}}">
 </p>
 
 <p> where
@@ -143,7 +143,7 @@ refers to the number of test observations that the neural network correctly clas
 refers to the number of test observations that the neural network incorrectly classified as edible. The rationale behind using the recall measure of 
 model assessment is that we wish to predict as many
 poisonous mushrooms as possible from those that are observed to be poisonous (namely
-<img src="https://render.githubusercontent.com/render/math?math=TP+FE">
+<img src="https://render.githubusercontent.com/render/math?math=TP%2BFE">
 ). </p>
 
 ```
