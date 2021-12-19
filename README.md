@@ -47,9 +47,21 @@ is given by:</p>
 <img src="https://render.githubusercontent.com/render/math?math=S_T(C)=\sum_{j=1}^{n_C}%20p_j%20H_T(C_j)">
 </p>
     
-
-<p>where $n_C$ is the cardinality of the variable $C$, $p_j$ is the relative frequency of category $C_j$ 
-within the dataset and $H_T(C_j)$ is the entropy of the data contained in $C_j$ with respect to the target variable $T$. 
+<p>where
+<img align="center" src="https://render.githubusercontent.com/render/math?math=n_C">
+is the cardinality of the variable
+<img src="https://render.githubusercontent.com/render/math?math=C">
+,
+<img align="center" src="https://render.githubusercontent.com/render/math?math=p_j">
+is the relative frequency of category
+<img align="center" src="https://render.githubusercontent.com/render/math?math=C_j"> 
+within the dataset and 
+<img align="center" src="https://render.githubusercontent.com/render/math?math=H_T(C_j)"> 
+is the entropy of the data contained in 
+<img align="center" src="https://render.githubusercontent.com/render/math?math=C_j"> 
+with respect to the target variable
+<img src="https://render.githubusercontent.com/render/math?math=T">
+. 
 In essence, the split entropy for a given feature is the sum of the weighted entropies for each set of observations that
 is created by partitioning the observations based on the feature's values.</p>
 
