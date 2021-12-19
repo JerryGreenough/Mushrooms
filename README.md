@@ -20,16 +20,34 @@ given independent variable is any more informative than partitioning the dataset
 of another independent variable.</p>
 
 <p>The entropy of a dataset with respect to a categorical target variable
-<img align="center" src="https://render.githubusercontent.com/render/math?math=T">  
+<img src="https://render.githubusercontent.com/render/math?math=T">  
 is given by:</p>
+
+<p align="center">
 <img align="center" src="https://render.githubusercontent.com/render/math?math=H_T=-\sum_{i=1}^{n_T}p_i%20log(p_i)">  
-$$ H_T = - \sum_{i=1}^{n_T} p_i log(p_i)$$
-<p>where $n_T$ is the cardinality (number of categories) of the variable $T$ and $p_i$ is the relative frequency of the
-$i$th category.</p>
-<p>The split entropy, $S_T(C)$ incurred by assessing the entropy of the datset when partitioned based on values
-of categorical variable $C$ is given by:</p>
+</p>
+
+<p>where
+<img align="center" src="https://render.githubusercontent.com/render/math?math=n_T"> 
+is the cardinality (number of categories) of the variable
+<img src="https://render.githubusercontent.com/render/math?math=T">
+and
+<img align="center" src="https://render.githubusercontent.com/render/math?math=p_i">  
+is the relative frequency category
+<img src="https://render.githubusercontent.com/render/math?math=i">
+.</p>
+<p>The split entropy, 
+<img align="center" src="https://render.githubusercontent.com/render/math?math=S_T(C)">
+incurred by assessing the entropy of the datset when partitioned based on values
+of categorical variable
+<img src="https://render.githubusercontent.com/render/math?math=C">
+is given by:</p>
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=S_T(C)=\sum_{j=1}^{n_C}%20p_j%20H_T(C_j)">
+</p>
     
-$$ S_T(C) = \sum_{j=1}^{n_C} p_j H_T(C_j)$$
+
 <p>where $n_C$ is the cardinality of the variable $C$, $p_j$ is the relative frequency of category $C_j$ 
 within the dataset and $H_T(C_j)$ is the entropy of the data contained in $C_j$ with respect to the target variable $T$. 
 In essence, the split entropy for a given feature is the sum of the weighted entropies for each set of observations that
