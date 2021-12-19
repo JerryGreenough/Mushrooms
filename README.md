@@ -14,11 +14,13 @@ The purpose of this project is .
 ## Informational Value
 
 
-<p>The information gain $I_T(C)$ with respect to the target variable that is afforded by variable $C$ is defined as follows:</p>
+<p>The information gain ![formula](https://render.githubusercontent.com/render/math?math=I_T(C))
+ with respect to the target variable that is afforded by variable ![formula](https://render.githubusercontent.com/render/math?math=C)
+ is defined as follows:</p>
+ 
+ ![formula](https://render.githubusercontent.com/render/math?math=I_T(C)=H_T-S_T(C))
 
 $$I_T(C) =  H_T - S_T(C) $$
-
-![formula](https://render.githubusercontent.com/render/math?math=e^{i\pi}=-1)
 
 
 <p>The objective of finding the most informative variable is tantamount 
