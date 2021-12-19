@@ -12,11 +12,9 @@ The purpose of this project is .
 </p>
 
 ## Informational Value
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
-![](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
-![](https://latex.codecogs.com/svg.latex?\{I_T(C)})
 
-<p>The information gain ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi}=-1)
+
+<p>The information gain ![](https://latex.codecogs.com/svg.latex?\{I_T(C)})
     
 with respect to the target variable that is afforded by variable 
 <img src="https://render.githubusercontent.com/render/math?math=C">
