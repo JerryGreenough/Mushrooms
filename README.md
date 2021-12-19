@@ -52,7 +52,7 @@ is given by:</p>
 is the cardinality of the variable
 <img src="https://render.githubusercontent.com/render/math?math=C">
 ,
-<img src="https://render.githubusercontent.com/render/math?math=p_j">
+<img <img align="center" src="https://render.githubusercontent.com/render/math?math=p_j">
 is the relative frequency of category
 <img align="center" src="https://render.githubusercontent.com/render/math?math=C_j"> 
 within the dataset and 
@@ -60,8 +60,7 @@ within the dataset and
 is the entropy of the data contained in 
 <img align="center" src="https://render.githubusercontent.com/render/math?math=C_j"> 
 with respect to the target variable
-<img src="https://render.githubusercontent.com/render/math?math=T">
-. 
+<img src="https://render.githubusercontent.com/render/math?math=T">. 
 In essence, the split entropy for a given feature is the sum of the weighted entropies for each set of observations that
 is created by partitioning the observations based on the feature's values.</p>
 
