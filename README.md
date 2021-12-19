@@ -1,6 +1,35 @@
 # Mushrooms
 <strong>Purpose:</strong> Predicting the features that are most informative in determining the comestibility of mushrooms.
 
+## Introduction 
+
+<p>The objective of this study is to explore the data contained in the well known 'mushroom' dataset -
+see the following link in order to access the mushroom data, along with a description of the data content.</p>
+<a href = "https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
+    
+<p>The data consists of 8124 observations of mushrooms (of varying species), with each observation being a vector of
+categorical values associated with the following features:-</p>
+
+<ul>
+<li>cap-shape, cap-surface, cap-color</li>
+<li>veil-type, veil-color</li>
+<li>gill-attachment, gill-spacing, gill-size, gill-color</li> 
+<li>ring-number, ring-type</li>
+<li>stalk-shape, stalk-root, stalk-surface-above-ring, stalk-surface-below-ring, stalk-color-above-ring, stalk-color-below-ring</li>
+<li>spore-print-color</li>
+<li>poulation</li>
+<li>habitat</li>
+<li>bruises</li>
+<li>odor</li>
+</ul>
+
+<p>Each observation is also associated with a response variable 'class' which 
+attains a value 'e' for edible and 'p' for poisonous. A portion of the dataset may be used to train
+a machine learning model to use the feature values of a mushroom sample to predict whether the sample
+is edible or poisonous. To this end, the study presented here seeks to demonstrate that certain of the
+above listed features have more informational value than others - it will be seen that the edibility of a mushroom could
+be characterized by just three of those features.</p>
+
 The purpose of this project is .
 
 <p align="center">
