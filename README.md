@@ -85,7 +85,7 @@ maximizes the information gain
 .</p>
 
 
-##Analyzing the Effect of Dropping Uninformative Features
+## Analyzing the Effect of Dropping Uninformative Features
 
 <p>The normalized observation data will be used (as part of a separate study) to train a neural network in order 
 to predict from observed feature values whether a mushroom is edible or poisonous. In order to perform an experiment
@@ -94,13 +94,19 @@ with each dataset progressively making use of fewer of the least informative fea
 The recall score that is obtained by assessing a trained neural network on hold-out (test) data
 will then be used to see whether reducing the number of uninformative features helps to improve model performance.</p>
 
-<p>For the purpose of this study, the recall score is given by $R$ as follows: </p>
+<p>For the purpose of this study, the recall score is given by
+<img src="https://render.githubusercontent.com/render/math?math=R">
+as follows: </p>
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=R={{TP}\over{TP+FE}}">
+<img src="https://render.githubusercontent.com/render/math?math=R={{TP}\over{TP%20+%20FE}}">
 </p>
 
-<p> where $P$ refers to poisonous and $E$ refers to edible - the rationale being that we would wish to predict as many
+<p> where
+<img src="https://render.githubusercontent.com/render/math?math=P">
+refers to poisonous and
+<img src="https://render.githubusercontent.com/render/math?math=E">
+refers to edible - the rationale being that we would wish to predict as many
 poisonous mushrooms as possible from those that are observed to be poisonous. </p>
 
 ```
