@@ -52,7 +52,7 @@ is given by:</p>
 is the cardinality of the variable
 <img src="https://render.githubusercontent.com/render/math?math=C">
 ,
-<img align="center" src="https://render.githubusercontent.com/render/math?math=p_j">
+<img src="https://render.githubusercontent.com/render/math?math=p_j">
 is the relative frequency of category
 <img align="center" src="https://render.githubusercontent.com/render/math?math=C_j"> 
 within the dataset and 
