@@ -14,8 +14,8 @@ The purpose of this project is .
 ## Informational Value
 
 
-The information gain ![](https://latex.codecogs.com/svg.latex?\{I_T(C)})
-    
+The information gain 
+<img src="https://render.githubusercontent.com/render/math?math=I_T(C)">    
 with respect to the target variable that is afforded by variable 
 <img src="https://render.githubusercontent.com/render/math?math=C">
 is defined as follows:
