@@ -14,12 +14,11 @@ The purpose of this project is .
 ## Informational Value
 
 
-<p>The information gain with respect to the target variable that is afforded by variable <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<p>The information gain 
+<img src="https://render.githubusercontent.com/render/math?math=I_T(C)">
+with respect to the target variable that is afforded by variable 
+<img src="https://render.githubusercontent.com/render/math?math=C">
 is defined as follows:</p>
- 
- 
- 
- ![formula](https://render.githubusercontent.com/render/math?math=C)
  
  ![formula](https://render.githubusercontent.com/render/math?math=I_T(C)=H_T-S_T(C))
 
