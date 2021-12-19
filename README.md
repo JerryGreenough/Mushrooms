@@ -156,6 +156,8 @@ poisonous mushrooms as possible from those that are observed to be poisonous (na
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/recall.png" width="432" height="288">  
 </p>
+
+
 ```
 import math
 import numpy as np
