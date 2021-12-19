@@ -23,8 +23,13 @@ is defined as follows: </p>
 <img src="https://render.githubusercontent.com/render/math?math=I_T(C)=H_T-S_T(C)">
 </p>
 
-<p>The objective of finding the most informative variable is tantamount 
-to establishing which variable $C = C_{max}$ maximizes the information gain $I_T(C)$.</p>
+<p>In order to find the most informative variable we have to determine
+which variable
+<img src="https://render.githubusercontent.com/render/math?math=C=C_{max}">     
+maximizes the information gain $I_T(C)$, which
+is tantamount to finding the variable that minimizes the split entropy
+<img src="https://render.githubusercontent.com/render/math?math=S_T(C)"> 
+.</p>
 
 ```
 import math
