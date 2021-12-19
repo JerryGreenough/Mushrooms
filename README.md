@@ -1,5 +1,5 @@
 # Mushrooms
-<strong>Purpose:</strong> Predicting the Comestibility of Mushrooms
+<strong>Purpose:</strong> Predicting the features that are most informative in determining the comestibility of mushrooms.
 
 The purpose of this project is .
 
@@ -32,7 +32,8 @@ is given by:</p>
 is the cardinality (number of categories) of the variable
 <img src="https://render.githubusercontent.com/render/math?math=T">
 and
-<img align="center" src="https://render.githubusercontent.com/render/math?math=p_i">  
+<img align="center" src="https://render.githubusercontent.com/render/math?math=p_i"> 
+
 is the relative frequency category
 <img src="https://render.githubusercontent.com/render/math?math=i">
 .</p>
@@ -82,6 +83,25 @@ maximizes the information gain
 , which is tantamount to finding the variable that minimizes the split entropy
 <img align="center" src="https://render.githubusercontent.com/render/math?math=S_T(C)"> 
 .</p>
+
+
+##Analyzing the Effect of Dropping Uninformative Features
+
+<p>The normalized observation data will be used (as part of a separate study) to train a neural network in order 
+to predict from observed feature values whether a mushroom is edible or poisonous. In order to perform an experiment
+concerning how parsimonious the nerual netwrok model need be, a series of normalized datasets is now constructed, 
+with each dataset progressively making use of fewer of the least informative features. 
+The recall score that is obtained by assessing a trained neural network on hold-out (test) data
+will then be used to see whether reducing the number of uninformative features helps to improve model performance.</p>
+
+<p>For the purpose of this study, the recall score is given by $R$ as follows: </p>
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=R={{TP}\over{TP+FE}}">
+</p>
+
+<p> where $P$ refers to poisonous and $E$ refers to edible - the rationale being that we would wish to predict as many
+poisonous mushrooms as possible from those that are observed to be poisonous. </p>
 
 ```
 import math
