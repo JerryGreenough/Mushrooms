@@ -18,7 +18,6 @@ The purpose of this project is .
 
 $$I_T(C) =  H_T - S_T(C) $$
 
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 <p>The objective of finding the most informative variable is tantamount 
 to establishing which variable $C = C_{max}$ maximizes the information gain $I_T(C)$.</p>
