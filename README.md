@@ -84,6 +84,12 @@ maximizes the information gain
 <img align="center" src="https://render.githubusercontent.com/render/math?math=S_T(C)"> 
 .</p>
 
+<p>The information gain (with respect to our response variable 'class') has been calculated for each of the features listed in the introduction and presented in
+the following bar chart. The top three informative features appear to be 'gill-color', 'spore-print-color', and 'odor'.</p>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/information_gain.png" width="386" height="376">  
+</p>
+
 
 ## Analyzing the Effect of Dropping Uninformative Features
 
