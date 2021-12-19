@@ -13,11 +13,11 @@ The purpose of this project is .
 
 ## Informational Value
 
-<p>The information gain: </p>
+<p>The information gain: 
 <img align="center" src="https://render.githubusercontent.com/render/math?math=I_T(C)">    
 with respect to the target variable that is afforded by variable 
 <img src="https://render.githubusercontent.com/render/math?math=C">
-is defined as follows:
+is defined as follows: </p>
  
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=I_T(C)=H_T-S_T(C)">
