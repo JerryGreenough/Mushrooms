@@ -13,6 +13,14 @@ The purpose of this project is .
 
 ## Informational Value
 
+
+<p>The information gain $I_T(C)$ with respect to the target variable that is afforded by variable $C$ is defined as follows:</p>
+
+$$I_T(C) =  H_T - S_T(C) $$
+
+<p>The objective of finding the most informative variable is tantamount 
+to establishing which variable $C = C_{max}$ maximizes the information gain $I_T(C)$.</p>
+
 ```
 import math
 import numpy as np
