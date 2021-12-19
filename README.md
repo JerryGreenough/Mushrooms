@@ -13,7 +13,8 @@ The purpose of this project is .
 
 ## Informational Value
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+
 <p>The information gain ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi}=-1)
     
 with respect to the target variable that is afforded by variable 
