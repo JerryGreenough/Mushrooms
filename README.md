@@ -15,8 +15,10 @@ The purpose of this project is .
 
 
 <p>The information gain   
- with respect to the target variable that is afforded by variable ![formula](https://render.githubusercontent.com/render/math?math=C)
+ with respect to the target variable that is afforded by variable 
  is defined as follows:</p>
+ 
+ ![formula](https://render.githubusercontent.com/render/math?math=C)
  
  ![formula](https://render.githubusercontent.com/render/math?math=C)
  
