@@ -10,3 +10,11 @@ The purpose of this project is .
 <p align="center">
     <strong><small>Fly Agaric Mushroom</small></strong>
 </p>
+
+## Informational Value
+
+```
+import math
+import numpy as np
+import pandas as pd
+```
