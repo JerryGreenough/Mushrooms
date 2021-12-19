@@ -13,6 +13,7 @@ The purpose of this project is .
 
 ## Informational Value
 
+![ ](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
 
 The information gain 
 <img src="https://render.githubusercontent.com/render/math?math=I_T(C)">    
