@@ -1,10 +1,18 @@
 # Mushrooms
 <strong>Purpose:</strong> Predicting the features that are most informative in determining the comestibility of mushrooms.
 
-<p>The objective of this study is to explore the data contained in the well known 'mushroom' dataset -
+<p>The objective of this study is to explore the informativeness of features pertaining to data contained in the well known 'mushroom' dataset -
 see the following link in order to access the mushroom data, along with a description of the data content.</p>
-<br>
+
 <a href = "https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/fly_agaric.jpg" width="782" height="444">  
+</p>
+
+<p align="center">
+    <strong><small>Fly Agaric Mushroom</small></strong>
+</p>
 
 ## Data Exploration
 
@@ -30,14 +38,6 @@ a machine learning model to use the feature values of a mushroom sample to predi
 is edible or poisonous. To this end, the study presented here seeks to demonstrate that certain of the
 above listed features have more informational value than others - it will be seen that the edibility of a mushroom could
 be characterized by just three of those features.</p>
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/fly_agaric.jpg" width="782" height="444">  
-</p>
-
-<p align="center">
-    <strong><small>Fly Agaric Mushroom</small></strong>
-</p>
 
 ## Informational Value
 
