@@ -14,9 +14,7 @@ The purpose of this project is .
 ## Informational Value
 
 
-<p>The information gain with respect to the target variable that is afforded by variable 
-![formula](https://render.githubusercontent.com/render/math?math=C) 
-is defined as follows:</p>
+<p>The information gain with respect to the target variable that is afforded by variable![formula](https://render.githubusercontent.com/render/math?math=C)is defined as follows:</p>
  
  
  
