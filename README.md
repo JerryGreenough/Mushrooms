@@ -13,7 +13,7 @@ The purpose of this project is .
 
 ## Informational Value
 
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 <p>The information gain ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi}=-1)
     
 with respect to the target variable that is afforded by variable 
