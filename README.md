@@ -14,7 +14,7 @@ The purpose of this project is .
 ## Informational Value
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
 ![](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
-![](https://latex.codecogs.com/svg.latex?\I_T(C)})
+![](https://latex.codecogs.com/svg.latex?\{I_T(C)})
 
 <p>The information gain ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi}=-1)
     
