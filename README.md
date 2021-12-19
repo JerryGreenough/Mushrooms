@@ -25,9 +25,10 @@ is defined as follows: </p>
 
 <p>In order to find the most informative variable we have to determine
 which variable
-<img src="https://render.githubusercontent.com/render/math?math=C=C_{max}">     
-maximizes the information gain $I_T(C)$, which
-is tantamount to finding the variable that minimizes the split entropy
+<img align="center" src="https://render.githubusercontent.com/render/math?math=C=C_{max}">     
+maximizes the information gain
+<img align="center" src="https://render.githubusercontent.com/render/math?math=I_T(C)">
+, which is tantamount to finding the variable that minimizes the split entropy
 <img src="https://render.githubusercontent.com/render/math?math=S_T(C)"> 
 .</p>
 
