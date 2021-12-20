@@ -6,6 +6,11 @@ see the following link in order to access the mushroom data, along with a descri
 
 <a href = "https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
 
+<p>The data itself is contained in a .csv file ```mushrooms.csv```. The source code that has been used to normalize and analyze the data
+is contained in a Jupyter notebpook:</p>
+
+```mushrooms.ipynb```
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/fly_agaric.jpg" width="782" height="444">  
 </p>
@@ -127,7 +132,7 @@ in order to determine how parsimonious the neural network's training data need b
 To this end, a series of normalized datasets is constructed, with each dataset progressively making use of fewer of the least informative features. 
 The datasets are saved in '.csv' fomat and are named using the following convention: </p>
     
-'''mushrooms_one_hot_encoded_partial_n.csv'''
+```mushrooms_one_hot_encoded_partial_n.csv```
     
 <p>in which the
 <img src="https://render.githubusercontent.com/render/math?math=n">
