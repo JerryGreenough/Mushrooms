@@ -6,8 +6,11 @@ see the following link in order to access the mushroom data, along with a descri
 
 <a href = "https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
 
-<p>The data itself is contained in a .csv file `mushrooms.csv` . The source code that has been used to normalize and analyze the data
-is contained in a Jupyter notebpook: ```mushrooms.ipynb``` </p>
+<p>The data itself is contained in a .csv file:
+```mushrooms.csv```
+The source code that has been used to normalize and analyze the data
+is contained in a Jupyter notebpook: 
+```mushrooms.ipynb``` </p>
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/fly_agaric.jpg" width="782" height="444">  
