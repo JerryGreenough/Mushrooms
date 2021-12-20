@@ -187,3 +187,4 @@ the fifteen least informative features when attepting to predict mushroom edibil
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/recall.png" width="432" height="288">  
 </p>
+
