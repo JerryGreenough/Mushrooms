@@ -176,19 +176,14 @@ poisonous mushrooms as possible from those that are observed to be poisonous (na
 ). </p>
 
 
-<p>The test loss ....</p>
+<p>The following graph of test loss vs. number of dropped features suggests that convergence of the neural network's training algorithm
+is only adversely affected after the first fifteen least informative features have been dropped from the dataset.</p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/test_loss.png" width="432" height="288">  
 </p>
 
-<p>The recall ....</p>
+<p>The following graph of recall vs. the number of dropped features demonstrates that there is little to be gained from including
+the fifteen least informative features when attepting to predict mushroom edibility using a pre-trained neural network model.</p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/recall.png" width="432" height="288">  
 </p>
-
-
-```
-import math
-import numpy as np
-import pandas as pd
-```
