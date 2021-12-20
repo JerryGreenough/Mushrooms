@@ -122,11 +122,22 @@ the following bar chart. The top three informative features appear to be 'gill-c
 ## Analyzing the Effect of Dropping Uninformative Features
 
 <p>The normalized observation data will be used (as part of a separate study) to train a neural network in order 
-to predict from observed feature values whether a mushroom is edible or poisonous. In order to perform an experiment
-concerning how parsimonious the nerual netwrok model need be, a series of normalized datasets is now constructed, 
-with each dataset progressively making use of fewer of the least informative features. 
-The recall score that is obtained by assessing a trained neural network on hold-out (test) data
-will then be used to see whether reducing the number of uninformative features helps to improve model performance.</p>
+to predict from observed feature values whether a mushroom is edible or poisonous. An experiment is performed
+in order to determine how parsimonious the neural network's training data need be. 
+To this end, a series of normalized datasets is constructed, with each dataset progressively making use of fewer of the least informative features. 
+The datasets are saved in '.csv' fomat and are named using the following convention: </p>
+    
+'''mushrooms_one_hot_encoded_partial_n.csv'''
+    
+<p>in which the
+<img src="https://render.githubusercontent.com/render/math?math=n">
+denotes that the 
+<img src="https://render.githubusercontent.com/render/math?math=n%2B1">
+least informative features have been dropped from the original dataset. </p>
+
+<p>A custom neural network is built and trained for each dataset. The recall score that is obtained by assessing the predictive performance 
+of a trained neural network on hold-out (test) data is then used to assess whether reducing the number of uninformative features 
+has a deleterious effect on the neural network's ability to predict whether a mushroom is posinonous or not. </p>
 
 <p>For the purpose of this study, the recall score is given by
 <img src="https://render.githubusercontent.com/render/math?math=R">
