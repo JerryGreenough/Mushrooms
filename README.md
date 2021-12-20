@@ -8,7 +8,8 @@ The data together with a description of its content can be accessed via the foll
 
 <p>The data itself is contained in a .csv file:
     
-<center> ```mushrooms.csv``` </center>
+```mushrooms.csv```
+
 
 A description of the procedures and the mathematics that have been employed during this study are presented in the
 sections that follow. The Phython source code that has been used to normalize and analyze the data
