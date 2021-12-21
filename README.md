@@ -5,9 +5,8 @@
 with a view to determining those features that are most important for predicting whether a mushroom is poisonous or edible. </p>
 
 <p> This study demonstrates that only a small subset of the data's features (5 out of 20) is required 
-to achieve a true positive rate (or recall) of 99.5% for predictions made by an ANN neural network that has been
-trained using a portion of the data. In this instance, a true positive refers to an accurate predicition by a properly trained 
-neural network of a mushroom being poisonous. </p>
+to achieve a true positive rate (or recall) of 99.5% for predictions made by an appropriately trained ANN neural network. 
+For thr purpose of this study, a 'true positive' refers to an accurate predicition (by a neural network) of a mushroom being poisonous. </p>
 
 ## Data Source
 
