@@ -164,7 +164,7 @@ the binary cross entropy loss function is used to assess whether the probability
 value of the 'class' label in the hold out dataset (a categorical value which is either 0 or 1). The binary cross entropy loss is defined as follows:</p>
  
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=H_l(q)=-{{1}\over{N}}\sum_{i=1}^N l_i log(q_i) %2B (1-l_i)log(1-q_i)">
+<img src="https://render.githubusercontent.com/render/math?math=H_l(q)=-{{1}\over{N}}\sum_{i=1}^N [l_i \textrm{log}(q_i) %2B (1-l_i)\textrm{log}(1-q_i)]">
 </p>
 
 <p>where
