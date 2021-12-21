@@ -6,7 +6,11 @@ The sample mushroom data can be sourced (together with a description of its cont
 
 <a href = "https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
 
-<p> The study demonstrates that only a small subset of the features is required to generate a 
+<p> The study demonstrates that only a small subset of the data's features (5 out of 20) is required 
+to achieve a true positive rate (or recall) of 99.5% for predictions made by an ANN neural network that has been
+trained using a portion of the data. In this instance, a true positive refers to an accurate predicition by a properly trained 
+neural network of a mushroom being poisonous. </p>
+    
 <p>The data itself is contained in a .csv file:
     
 ```mushrooms.csv```
