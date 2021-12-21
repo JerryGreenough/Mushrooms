@@ -6,7 +6,7 @@ with a view to determining those features that are most important for predicting
 
 <p> This study demonstrates that only a small subset of the data's features (5 out of 20) is required 
 to achieve a true positive rate (or recall) of 99.5% for predictions made by an appropriately trained ANN neural network. 
-For thr purpose of this study, a 'true positive' refers to an accurate predicition (by a neural network) of a mushroom being poisonous. </p>
+For the purpose of this study, a 'true positive' refers to an accurate predicition by the neural network of a mushroom being poisonous. </p>
 
 ## Data Source
 
