@@ -157,7 +157,19 @@ denotes that the
 <img src="https://render.githubusercontent.com/render/math?math=n%2B1">
 least informative features have been dropped from the original dataset. </p>
 
-<p>A custom neural network is built and trained for each dataset. The recall score that is obtained by assessing the predictive performance 
+<p>A custom neural network is built and trained for each dataset. In order to assess how well the neural network has been trained, 
+we can look at the loss function value 
+In this instance, the problem that we seek to solve is binary classification, i.e. is the mushroom edible or not ? Accordingly,
+the binary cross entropy loss function is used to assess whether the probability score produced by the network (a floating point value between 0.0 and 1.0) is close to the
+value of the 'class' label in the hold out dataset (a categorical value which is either 0 or 1).</p>
+    
+<p>The following graph of test loss vs. number of dropped features suggests that convergence of the neural network's training algorithm
+is only adversely affected after the first fifteen least informative features have been dropped from the dataset.</p>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/test_loss.png" width="432" height="288">  
+</p>
+
+<p>The recall score that is obtained by assessing the predictive performance 
 of a trained neural network on hold-out (test) data is then used to assess whether reducing the number of uninformative features 
 has a deleterious effect on the neural network's ability to predict whether a mushroom is posinonous or not. </p>
 
@@ -179,16 +191,14 @@ poisonous mushrooms as possible from those that are observed to be poisonous (na
 <img src="https://render.githubusercontent.com/render/math?math=TP%2BFE">
 ). </p>
 
-
-<p>The following graph of test loss vs. number of dropped features suggests that convergence of the neural network's training algorithm
-is only adversely affected after the first fifteen least informative features have been dropped from the dataset.</p>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/test_loss.png" width="432" height="288">  
-</p>
-
 <p>The following graph of recall vs. the number of dropped features demonstrates that there is little to be gained from including
 the fifteen least informative features when attepting to predict mushroom edibility using a pre-trained neural network model.</p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/JerryGreenough/Mushrooms/master/images/recall.png" width="432" height="288">  
 </p>
+
+
+
+
+
 
