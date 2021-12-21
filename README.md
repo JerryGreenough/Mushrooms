@@ -1,15 +1,15 @@
 # Mushrooms
-<strong>Purpose:</strong> Predicting the features that are most informative in determining the comestibility of mushrooms.
+<strong>Purpose:</strong> Predicting the features that are most informative in determining the edibility of mushrooms.
 
 <p>The objective of this study is to explore the information value of features contained in the well known 'mushroom' dataset. 
-The data together with a description of its content can be accessed via the following link:</p>
+The sample mushroom data can be sourced (together with a description of its content) from the following site:</p>
 
 <a href = "https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
 
+<p> The study demonstrates that only a small subset of the features is required to generate a 
 <p>The data itself is contained in a .csv file:
     
 ```mushrooms.csv```
-
 
 A description of the procedures and the mathematics that have been employed during this study are presented in the
 sections that follow. The Phython source code that has been used to normalize and analyze the data
@@ -18,7 +18,7 @@ is contained in a Jupyter notebook:
 ```mushrooms.ipynb``` 
     
 The Python source code that has been used to both train as well as infer from the neural networks makes use of the
-PyTorch library and is contained in the following Jupyter notebook:
+PyTorch library and is also contained in a Jupyter notebook:
     
 ```mushroom_predictor.ipynb``` 
 
