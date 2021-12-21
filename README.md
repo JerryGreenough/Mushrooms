@@ -158,11 +158,26 @@ denotes that the
 least informative features have been dropped from the original dataset. </p>
 
 <p>A custom neural network is built and trained for each dataset. In order to assess how well the neural network has been trained, 
-we can look at the loss function value 
+we can look at the loss function value.
 In this instance, the problem that we seek to solve is binary classification, i.e. is the mushroom edible or not ? Accordingly,
 the binary cross entropy loss function is used to assess whether the probability score produced by the network (a floating point value between 0.0 and 1.0) is close to the
-value of the 'class' label in the hold out dataset (a categorical value which is either 0 or 1).</p>
-    
+value of the 'class' label in the hold out dataset (a categorical value which is either 0 or 1). The binary cross entropy loss is defined as follows:</p>
+ 
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=H_l(q)=-{{1}\over{N}}\sum_1^N ">
+</p>
+
+<p>where
+<img src="https://render.githubusercontent.com/render/math?math=N">
+is the number of observations in the test data set,
+<img src="https://render.githubusercontent.com/render/math?math=q_i">
+is the probability score of edibility that is produced by the neural network for observation 
+<img src="https://render.githubusercontent.com/render/math?math=i">   
+and 
+<img src="https://render.githubusercontent.com/render/math?math=l_i">    
+is the label (1 or 0) of the observation.
+</p>
+
 <p>The following graph of test loss vs. number of dropped features suggests that convergence of the neural network's training algorithm
 is only adversely affected after the first fifteen least informative features have been dropped from the dataset.</p>
 <p align="center">
